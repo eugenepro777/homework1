@@ -1,2 +1,2 @@
 # C sharp homework1
-**Task 2, 4, 6 и 8**
+**Tasks 2, 4, 6 & 8**
