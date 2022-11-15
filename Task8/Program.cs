@@ -7,10 +7,14 @@ int numberSecond = numberFirst + 1;
 int numberLast = numberN + 1;
 
 if (numberN < 1)
+{
     Console.WriteLine($"Число меньше {numberFirst}, повторите ввод");
+}
 else
+{
 while (numberLast > numberSecond && numberLast >= numberN)
 {
     Console.Write($"{numberSecond} ");
     numberSecond += 2;
+}
 }
