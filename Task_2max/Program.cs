@@ -7,8 +7,9 @@ int numberB = Convert.ToInt32(Console.ReadLine());
 
 if (numberB > numberA)
     Console.WriteLine("max = " + numberB);
-    else
-    if (numberB == numberA)
+    else if (numberB == numberA)
+    {
     Console.WriteLine("Два числа одинаковы");
+    }
 else
     Console.WriteLine("max = " + numberA);
